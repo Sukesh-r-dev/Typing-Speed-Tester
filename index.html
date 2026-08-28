@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Typing Speed Tester</h1>
+
+    <div class="stats-board">
+      <div class="stat-box">
+        <div class="label">Time Remaining</div>
+        <div class="value" id="timer">60s</div>
+      </div>
+      <div class="stat-box">
+        <div class="label">WPM</div>
+        <div class="value" id="wpm">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="label">Accuracy</div>
+        <div class="value" id="accuracy">100%</div>
+      </div>
+    </div>
+
+    <div class="text-display" id="textDisplay"></div>
+    <input type="text" id="inputField" class="input-field" autocomplete="off" />
+
+    <div class="actions">
+      <button class="btn" id="restartBtn">Restart Test</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
